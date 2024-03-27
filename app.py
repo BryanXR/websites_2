@@ -3,8 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_gesk():
-    return '<h1>Bryan Valenzuela</h2>
-    <img src="https://i0.wp.com/lamiradafotografia.es/wp-content/uploads/2014/07/simpson-rock.jpg" width="500" heigth="600">'
+    return '<h1>Bryan Valenzuela</h2>'
 
 
 if __name__ == "__main__":
